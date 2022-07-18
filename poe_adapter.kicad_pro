@@ -324,6 +324,10 @@
     [
       "9d43f031-4287-4645-997e-8ec53611a4dd",
       "LAN7800 Sub-system"
+    ],
+    [
+      "51efc304-0253-4cf9-b8a4-37a603089f63",
+      "TPS2372 Sub System"
     ]
   ],
   "text_variables": {}
