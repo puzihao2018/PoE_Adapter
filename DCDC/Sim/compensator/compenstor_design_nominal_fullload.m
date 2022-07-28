@@ -8,12 +8,12 @@ options.FreqUnits = 'Hz'
 %--------------- power stage parameters ------------------
 Vin = 48
 Vout = 20
-L = 22e-6
-C = 22e-6
-rc = 2.8167e-4
-rl = 0.01
+L = 47e-6
+C = 330e-6
+rc = 20e-3
+rl = 0.0335
 R = 6.6667
-Ri = 0.015
+Ri = 0.022
 Fsw = 500e3
 Tsw = 1/Fsw
 D_ = 1 - Vout/Vin
@@ -25,8 +25,8 @@ A = 10
 
 %---------------- lm5116 ramp calculation -----------------
 Ir = 5e-6*(Vin - Vout) + 25e-6
-Cr = 560e-12
-Rr = 470e3
+Cr = 680e-12
+Rr = 178e3
 Vcc = 7.4
 gm = 5e-6
 Ios = Vcc / Rr + 25e-6
@@ -58,7 +58,7 @@ Gps = K * Fp * Fh
 
 %--------------- feedback compensator (type II) ------------
 
-Fc = 1/10 * Fsw             % selected cross-over freqeuncy, typically 1/5 to 1/10 of switching frequency
+Fc = 2.5e3             % selected cross-over freqeuncy, typically 1/5 to 1/10 of switching frequency
 R1 = 178e3                   % upper feedback resistor
 Rlo = 11.5e3                 % lower feedback resistor
 Vdiv = Rlo / (Rlo + R1)     % percentage voltage feedback

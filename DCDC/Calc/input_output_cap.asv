@@ -1,0 +1,8 @@
+clear
+Vin = 48
+Vout = 20
+eta = 0.9
+Iout = 3.2
+D = Vout/(Vin * eta)
+Vin_pp = 0.01 
+Cin = D * (1-D) * Iout / (Vin_pp * )
