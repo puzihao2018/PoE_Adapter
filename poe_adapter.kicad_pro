@@ -328,6 +328,10 @@
     [
       "51efc304-0253-4cf9-b8a4-37a603089f63",
       "TPS2372 Sub System"
+    ],
+    [
+      "2ca3a0f2-1db2-49ca-b941-3735f746c2ef",
+      "LM5116 DCDC Converter"
     ]
   ],
   "text_variables": {}

@@ -2105,8 +2105,8 @@
   )
 
   (no_connect (at 196.85 199.39) (uuid 62a42ed7-e7cb-4fa7-96f8-8d2a6bfe33d2))
-  (no_connect (at 196.85 204.47) (uuid 62a42ed7-e7cb-4fa7-96f8-8d2a6bfe33d2))
-  (no_connect (at 196.85 201.93) (uuid 62a42ed7-e7cb-4fa7-96f8-8d2a6bfe33d2))
+  (no_connect (at 196.85 204.47) (uuid 62a42ed7-e7cb-4fa7-96f8-8d2a6bfe33d3))
+  (no_connect (at 196.85 201.93) (uuid 62a42ed7-e7cb-4fa7-96f8-8d2a6bfe33d4))
 
   (wire (pts (xy 139.7 173.99) (xy 196.85 173.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -5102,7 +5102,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 46.99 236.2199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 41.91 234.95 0)
+    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (id 2) (at 41.91 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 234.95 0)
