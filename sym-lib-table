@@ -2,4 +2,5 @@
   (lib (name "LAN7800")(type "Legacy")(uri "${KIPRJMOD}/Libraries/LAN7800/2022-06-30_09-33-14.lib")(options "")(descr ""))
   (lib (name "TPS2372")(type "Legacy")(uri "${KIPRJMOD}/Libraries/TPS2372/2022-07-17_07-05-33.lib")(options "")(descr ""))
   (lib (name "FDMQ8205A")(type "Legacy")(uri "${KIPRJMOD}/Libraries/FDMQ8205A/2022-07-17_09-06-25/2022-07-17_09-06-25.lib")(options "")(descr ""))
+  (lib (name "LM5116")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5116.kicad_sym")(options "")(descr ""))
 )
