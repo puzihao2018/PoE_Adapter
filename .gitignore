@@ -26,3 +26,6 @@ poe_adapter-backups
 # Exported BOM files
 *.xml
 *.csv
+
+
+*.DS_Store

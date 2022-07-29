@@ -3,4 +3,5 @@
   (lib (name "TPS2372")(type "Legacy")(uri "${KIPRJMOD}/Libraries/TPS2372/2022-07-17_07-05-33.lib")(options "")(descr ""))
   (lib (name "FDMQ8205A")(type "Legacy")(uri "${KIPRJMOD}/Libraries/FDMQ8205A/2022-07-17_09-06-25/2022-07-17_09-06-25.lib")(options "")(descr ""))
   (lib (name "LM5116")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5116.kicad_sym")(options "")(descr ""))
+  (lib (name "7490220122")(type "KiCad")(uri "${KIPRJMOD}/Libraries/7490220122/KiCAD/2022-07-29_08-29-03/2022-07-29_08-29-03.kicad_sym")(options "")(descr ""))
 )
