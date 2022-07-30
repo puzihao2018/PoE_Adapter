@@ -5,4 +5,5 @@
   (lib (name "LM5116")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM5116.kicad_sym")(options "")(descr ""))
   (lib (name "7490220122")(type "KiCad")(uri "${KIPRJMOD}/Libraries/7490220122/KiCAD/2022-07-29_08-29-03/2022-07-29_08-29-03.kicad_sym")(options "")(descr ""))
   (lib (name "LM2575HV")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LM2575HVS/KiCAD/2022-07-29_09-37-15/2022-07-29_09-37-15.kicad_sym")(options "")(descr ""))
+  (lib (name "STUSB4700")(type "KiCad")(uri "${KIPRJMOD}/Libraries/STUSB4700/STUSB4700.kicad_sym")(options "")(descr ""))
 )
