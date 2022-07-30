@@ -2737,7 +2737,7 @@
     (property "Reference" "U?" (id 0) (at 219.71 149.86 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "TPS2372-3RGWR" (id 1) (at 219.71 153.67 0)
+    (property "Value" "TPS2372-4RGWR" (id 1) (at 219.71 153.67 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "RGW0020B" (id 2) (at 219.71 183.134 0)
