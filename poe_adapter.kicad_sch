@@ -2692,6 +2692,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b3ae9b0c-e0dd-4ca6-aeb4-c2342912e6f1)
   )
+  (wire (pts (xy 185.42 124.46) (xy 189.23 124.46))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b5bcd34e-f43b-41ad-a81c-bc6343319371)
+  )
   (wire (pts (xy 31.75 31.75) (xy 33.02 31.75))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b747efc0-59ea-4625-aa7d-e8228a0416b0)
@@ -3147,6 +3151,10 @@
   (label "RJ45_DB-" (at 67.945 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 81ecd7ff-3719-476b-b3d0-2a04907ddb1e)
+  )
+  (label "3V3" (at 185.42 124.46 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 88ed7824-a379-48ec-804a-4dae4b902d15)
   )
   (label "USB_CC" (at 228.6 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3939,6 +3947,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b451e858-fe6c-4781-b2db-b26a7c397527)
     )
+    (pin "I2C_VDD" input (at 189.23 124.46 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 669b029a-d4df-4a6b-bdec-b666154b8ada)
+    )
   )
 
   (sheet (at 107.315 83.185) (size 27.94 19.05) (fields_autoplaced)
@@ -4241,6 +4253,9 @@
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/d390facc-828a-42de-8c3a-e2e667f682a4"
       (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/d3c70f33-e011-4fb8-a1bd-f04ec0e34d05"
+      (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
+    )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/d4d76da9-4fb0-49b8-a288-70301089f040"
       (reference "#PWR?") (unit 1) (value "VSS") (footprint "")
     )
@@ -4499,6 +4514,9 @@
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/c30b3ca8-f501-48fc-9e13-211e2d0b3bab"
       (reference "J?") (unit 1) (value "Conn_01x02") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/cc14e1d4-4f25-4968-a538-fd991eca7ecb"
+      (reference "J?") (unit 1) (value "Conn_01x03_Male") (footprint "")
+    )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/f896b6f2-a4ee-453d-8853-a2e94a7ca9d6"
       (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "")
     )
@@ -4552,6 +4570,9 @@
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/1c8a5f97-b73e-472b-a5d8-59f6b6b1e2d7"
       (reference "R?") (unit 1) (value "16k") (footprint "")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/1e46cf2c-a297-4ead-9702-981df8e6ac55"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/2d2c2a42-f716-4dfe-81c9-28e3c3dc854b"
       (reference "R?") (unit 1) (value "24.9k") (footprint "")
@@ -4654,6 +4675,9 @@
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/cf3340b6-326e-476a-beb1-6869856f9766"
       (reference "R?") (unit 1) (value "11.5k") (footprint "")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/da509481-08db-43d1-96ea-01ae676ccfc3"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/dafab510-7158-46c4-a0db-1592c39b22b5"
       (reference "R?") (unit 1) (value "21k") (footprint "")
