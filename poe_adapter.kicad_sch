@@ -3504,10 +3504,10 @@
     (uuid 019f0cd4-b1bc-4fff-8d0c-54ee84293984)
     (property "Reference" "C7" (id 0) (at 140.335 29.845 90))
     (property "Value" "100nF" (id 1) (at 147.32 29.845 90))
-    (property "Footprint" "" (id 2) (at 139.065 32.0802 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 139.065 32.0802 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 142.875 31.115 0)
+    (property "Datasheet" "https://item.szlcsc.com/111477.html" (id 3) (at 142.875 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9dee9218-e07e-4958-9ca4-aca26687c297))
@@ -3600,7 +3600,7 @@
     (uuid 19595c0d-7ff4-482a-9384-ee8914c45859)
     (property "Reference" "R1" (id 0) (at 35.56 31.75 90))
     (property "Value" "330" (id 1) (at 35.56 33.655 90))
-    (property "Footprint" "" (id 2) (at 35.56 31.75 0)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 35.56 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 35.56 31.75 0)
@@ -3631,10 +3631,10 @@
     (uuid 30ad6084-9389-411c-add3-d2b2fd2e6d22)
     (property "Reference" "J2" (id 0) (at 50.165 21.59 0))
     (property "Value" "RJ45_LED_Shielded" (id 1) (at 50.165 24.13 0))
-    (property "Footprint" "" (id 2) (at 50.165 38.735 90)
+    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380" (id 2) (at 50.165 38.735 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 50.165 38.735 90)
+    (property "Datasheet" "https://item.szlcsc.com/136343.html" (id 3) (at 50.165 38.735 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c0af75e1-103e-4ad4-a861-30e35c1866a3))
@@ -3795,10 +3795,10 @@
     (uuid 55d13134-88c4-464b-92e7-8a4de99c8534)
     (property "Reference" "C8" (id 0) (at 140.335 40.005 90))
     (property "Value" "100nF" (id 1) (at 147.32 40.005 90))
-    (property "Footprint" "" (id 2) (at 139.065 42.2402 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 139.065 42.2402 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 142.875 41.275 0)
+    (property "Datasheet" "https://item.szlcsc.com/111477.html" (id 3) (at 142.875 41.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af61bc23-799e-4d4a-97a4-6591a7dd776d))
@@ -3946,10 +3946,10 @@
     (uuid a4af1433-cd70-4667-8b28-2095f79dd7e5)
     (property "Reference" "C9" (id 0) (at 140.335 50.165 90))
     (property "Value" "100nF" (id 1) (at 147.32 50.165 90))
-    (property "Footprint" "" (id 2) (at 139.065 52.4002 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 139.065 52.4002 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 142.875 51.435 0)
+    (property "Datasheet" "https://item.szlcsc.com/111477.html" (id 3) (at 142.875 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c59c4035-7524-42ae-9738-49af8924a270))
@@ -3961,10 +3961,10 @@
     (uuid a5c2e405-457b-40b8-94d5-abb0833b4dc7)
     (property "Reference" "C10" (id 0) (at 140.335 60.325 90))
     (property "Value" "100nF" (id 1) (at 147.32 60.325 90))
-    (property "Footprint" "" (id 2) (at 139.065 62.5602 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 139.065 62.5602 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 142.875 61.595 0)
+    (property "Datasheet" "https://item.szlcsc.com/111477.html" (id 3) (at 142.875 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid de4d52b1-da98-4860-8b2b-49ad8458ad32))
@@ -4125,7 +4125,7 @@
     (property "Value" "7490220122" (id 1) (at 114.3 68.58 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "7490220122_WRE" (id 2) (at 113.665 25.019 0)
+    (property "Footprint" "PoE_Devices:7490220122" (id 2) (at 113.665 25.019 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.we-online.com/catalog/datasheet/7490220122.pdf" (id 3) (at 114.3 24.13 0)
@@ -4483,16 +4483,16 @@
       (reference "C6") (unit 1) (value "100uF") (footprint "")
     )
     (path "/019f0cd4-b1bc-4fff-8d0c-54ee84293984"
-      (reference "C7") (unit 1) (value "100nF") (footprint "")
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/55d13134-88c4-464b-92e7-8a4de99c8534"
-      (reference "C8") (unit 1) (value "100nF") (footprint "")
+      (reference "C8") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a4af1433-cd70-4667-8b28-2095f79dd7e5"
-      (reference "C9") (unit 1) (value "100nF") (footprint "")
+      (reference "C9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/a5c2e405-457b-40b8-94d5-abb0833b4dc7"
-      (reference "C10") (unit 1) (value "100nF") (footprint "")
+      (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/175d2401-eed6-416a-938c-46d3b5f22d0e"
       (reference "C11") (unit 1) (value "330uF") (footprint "")
@@ -4510,7 +4510,7 @@
       (reference "C15") (unit 1) (value "22uF") (footprint "")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/c80c5c1c-3b8e-49f3-bf2a-31bee04cfd2a"
-      (reference "C16") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C16") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/a9786081-81b5-4c5e-bb26-40971f8d0316"
       (reference "C17") (unit 1) (value "1uF") (footprint "")
@@ -4660,7 +4660,7 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "")
     )
     (path "/30ad6084-9389-411c-add3-d2b2fd2e6d22"
-      (reference "J2") (unit 1) (value "RJ45_LED_Shielded") (footprint "")
+      (reference "J2") (unit 1) (value "RJ45_LED_Shielded") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE5380")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/c30b3ca8-f501-48fc-9e13-211e2d0b3bab"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
@@ -4717,7 +4717,7 @@
       (reference "Q?") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/19595c0d-7ff4-482a-9384-ee8914c45859"
-      (reference "R1") (unit 1) (value "330") (footprint "")
+      (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/ee089017-4ad8-4fa9-951f-6bb7e7dcb0d4"
       (reference "R2") (unit 1) (value "330") (footprint "")
@@ -4744,10 +4744,10 @@
       (reference "R9") (unit 1) (value "10k") (footprint "")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/fa1f34ca-11ba-433c-8eb9-ce76604729da"
-      (reference "R10") (unit 1) (value "10k") (footprint "")
+      (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/f9aa0818-5707-4d3d-b105-b1bc21978be2"
-      (reference "R11") (unit 1) (value "10k") (footprint "")
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/46e7fa13-5605-450d-ae06-ae8fe83bc34e"
       (reference "R12") (unit 1) (value "12k") (footprint "")
@@ -4942,16 +4942,16 @@
       (reference "TP20") (unit 1) (value "+48 Test 2") (footprint "")
     )
     (path "/f63ab445-f771-4bf9-83e4-f80f54e503cd"
-      (reference "TR1") (unit 1) (value "7490220122") (footprint "7490220122_WRE")
+      (reference "TR1") (unit 1) (value "7490220122") (footprint "PoE_Devices:7490220122")
     )
     (path "/3ace0daf-872d-413c-a0a6-5d385df9e012"
       (reference "U1") (unit 1) (value "LM2575HVS") (footprint "KTT0005B")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/e839030f-3630-4679-abd4-0628298cf701"
-      (reference "U2") (unit 1) (value "LAN7800/Y9X") (footprint "SQFN48_7X7_Y9X_MCH")
+      (reference "U2") (unit 1) (value "LAN7800/Y9X") (footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/0f631ae3-94bb-4ff1-a424-728f55d1bf23"
-      (reference "U3") (unit 1) (value "93AA66C") (footprint "")
+      (reference "U3") (unit 1) (value "93AA66C") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/72503aee-1be1-4337-b6ba-e0a874f82127"
       (reference "U4") (unit 1) (value "FDMQ8205A") (footprint "MLP_4p5X5_ONS")
