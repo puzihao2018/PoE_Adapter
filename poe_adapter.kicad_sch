@@ -4609,7 +4609,7 @@
       (reference "C48") (unit 1) (value "?") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/87deaa9b-9191-4c51-9a7b-fe47f567ff91"
-      (reference "C49") (unit 1) (value "330u") (footprint "")
+      (reference "C49") (unit 1) (value "330u") (footprint "Capacitor_SMD:C_Elec_10x10.2")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/b3835b32-7a86-4c0d-b67f-77e87736f7fb"
       (reference "C50") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4692,6 +4692,9 @@
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/98edcd65-b096-4782-9a83-b6568e275aff"
       (reference "J12") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
     )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/eaec829e-9606-4da7-ada5-1795a471d20e"
+      (reference "J?") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
+    )
     (path "/3d450075-3bcb-4343-9e3a-ee9b16827cb7"
       (reference "L1") (unit 1) (value "330uH") (footprint "")
     )
@@ -4702,7 +4705,7 @@
       (reference "L3") (unit 1) (value "L_Coupled_1243") (footprint "")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/5470518e-388a-4a99-b2f7-60e1a9a3bf2c"
-      (reference "L4") (unit 1) (value "47u WUETH 74435574700 ") (footprint "")
+      (reference "L4") (unit 1) (value "47u WUETH 74435574700 ") (footprint "PoE_Devices:74435574700")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/b57ee2ae-2f94-4c6f-8902-915ab402417a"
       (reference "Q1") (unit 1) (value "BSC118N10NSG") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
