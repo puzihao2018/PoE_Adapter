@@ -3615,7 +3615,7 @@
     (property "Value" "330uF" (id 1) (at 144.145 149.225 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_18x17.5" (id 2) (at 150.495 146.685 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_8x10" (id 2) (at 150.495 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/190127.html" (id 3) (at 150.495 146.685 0)
@@ -3677,7 +3677,7 @@
     (uuid 30ad6084-9389-411c-add3-d2b2fd2e6d22)
     (property "Reference" "J2" (id 0) (at 50.165 21.59 0))
     (property "Value" "RJ45_LED_Shielded" (id 1) (at 50.165 24.13 0))
-    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE5380" (id 2) (at 50.165 38.735 90)
+    (property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X" (id 2) (at 50.165 38.735 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/136343.html" (id 3) (at 50.165 38.735 90)
@@ -4556,7 +4556,7 @@
       (reference "C10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/175d2401-eed6-416a-938c-46d3b5f22d0e"
-      (reference "C11") (unit 1) (value "330uF") (footprint "Capacitor_SMD:CP_Elec_18x17.5")
+      (reference "C11") (unit 1) (value "330uF") (footprint "Capacitor_SMD:CP_Elec_8x10")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/8805b2c8-4492-42ee-9738-f7deb31ea902"
       (reference "C12") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -4733,7 +4733,7 @@
       (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles")
     )
     (path "/30ad6084-9389-411c-add3-d2b2fd2e6d22"
-      (reference "J2") (unit 1) (value "RJ45_LED_Shielded") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE5380")
+      (reference "J2") (unit 1) (value "RJ45_LED_Shielded") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE538X")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/20b2cc4c-dd50-47a4-a2f0-3800c15edb7c"
       (reference "J6") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
