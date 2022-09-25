@@ -2316,7 +2316,6 @@
     )
   )
 
-
   (junction (at 98.425 155.575) (diameter 0) (color 0 0 0 0)
     (uuid 02da4fde-4123-4591-8e65-7129fa4ed30c)
   )
@@ -3758,7 +3757,7 @@
     (property "Value" "LM2575HVS" (id 1) (at 125.095 128.27 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "KTT0005B" (id 2) (at 141.605 127.635 0)
+    (property "Footprint" "PoE_Devices:LM2575HVS-12" (id 2) (at 141.605 127.635 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2575hv.pdf" (id 3) (at 124.46 138.43 0)
@@ -4100,7 +4099,7 @@
     (uuid cb09cc98-6aae-448e-80c7-2822bffdfe71)
     (property "Reference" "J1" (id 0) (at 40.005 79.375 0))
     (property "Value" "USB_C_Receptacle" (id 1) (at 40.005 81.28 0))
-    (property "Footprint" "" (id 2) (at 43.815 111.125 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" (id 2) (at 43.815 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 43.815 111.125 0)
@@ -4677,7 +4676,7 @@
       (reference "C50") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/9d34c6b4-8866-44db-9f9e-d30c2a93eb7b"
-      (reference "C51") (unit 1) (value "10u") (footprint "")
+      (reference "C51") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/57c19149-39fa-470c-8a84-c430ee4f7bb7"
       (reference "C52") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -4692,7 +4691,7 @@
       (reference "C55") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/a30e29b8-93c1-4597-9a82-b83e5fb9722c"
-      (reference "C56") (unit 1) (value "1u") (footprint "")
+      (reference "C56") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/5964e5f4-5b12-403d-a86e-ca5b20033fd9"
       (reference "D1") (unit 1) (value "60V 1A") (footprint "Diode_SMD:D_SMA")
@@ -4731,34 +4730,16 @@
       (reference "FB5") (unit 1) (value "300ohm@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/cb09cc98-6aae-448e-80c7-2822bffdfe71"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "")
+      (reference "J1") (unit 1) (value "USB_C_Receptacle") (footprint "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles")
     )
     (path "/30ad6084-9389-411c-add3-d2b2fd2e6d22"
       (reference "J2") (unit 1) (value "RJ45_LED_Shielded") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE5380")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/eaec829e-9606-4da7-ada5-1795a471d20e"
-      (reference "J3") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/20b2cc4c-dd50-47a4-a2f0-3800c15edb7c"
       (reference "J6") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/cc14e1d4-4f25-4968-a538-fd991eca7ecb"
       (reference "J7") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/1c8956d3-44ee-4aca-8b67-efeded21eb97"
-      (reference "J8") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/492abb14-00e5-4596-bbed-3a8848143306"
-      (reference "J9") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/affb541b-e13d-4f61-98ac-1158b8f3b670"
-      (reference "J10") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/f896b6f2-a4ee-453d-8853-a2e94a7ca9d6"
-      (reference "J11") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
-    )
-    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/98edcd65-b096-4782-9a83-b6568e275aff"
-      (reference "J12") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical")
     )
     (path "/3d450075-3bcb-4343-9e3a-ee9b16827cb7"
       (reference "L1") (unit 1) (value "330uH") (footprint "Inductor_SMD:L_12x12mm_H8mm")
@@ -4902,7 +4883,7 @@
       (reference "R38") (unit 1) (value "30k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/88c62bac-369b-4d51-880b-174a13c09a58"
-      (reference "R39") (unit 1) (value "63.4k") (footprint "")
+      (reference "R39") (unit 1) (value "63.4k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/58176b44-75c4-42e2-9823-d12c810e288e"
       (reference "R40") (unit 1) (value "3.16k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -4950,67 +4931,85 @@
       (reference "R54") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/1d643958-ec47-4107-ae57-a0a871c234ae"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/4623d4a0-1896-42e2-a2a9-c442f1e278ce"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/8e44f40d-28d3-497b-b93f-e0d36ce01e2a"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/d497e56f-c929-4d0c-9e53-d131e90d5bac"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/80c48dc0-757a-4de2-b5ea-3817bec67ec5"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/0db58e98-cfad-412b-98e3-92a590a2f99c"
-      (reference "TP6") (unit 1) (value "TestPoint_Small") (footprint "")
+      (reference "TP6") (unit 1) (value "TestPoint_Small") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/64093038-225e-4317-83ef-c47cef492ec8"
-      (reference "TP7") (unit 1) (value "PAIR12") (footprint "")
+      (reference "TP7") (unit 1) (value "PAIR12") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/b6683028-c29e-44f5-9c2d-b7c114662903"
-      (reference "TP8") (unit 1) (value "EARTH") (footprint "")
+      (reference "TP8") (unit 1) (value "EARTH") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/477e46a6-eca2-4975-aec7-b8e5bfd7e491"
-      (reference "TP9") (unit 1) (value "PAIR36") (footprint "")
+      (reference "TP9") (unit 1) (value "PAIR36") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/ffacb24d-d386-403e-9ece-69387f6e4383"
-      (reference "TP10") (unit 1) (value "+48 Test 1") (footprint "")
+      (reference "TP10") (unit 1) (value "+48 Test 1") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/0d9339fb-3d8f-44b3-9cfc-9f50b8cb8154"
-      (reference "TP11") (unit 1) (value "VSSA") (footprint "")
+      (reference "TP11") (unit 1) (value "VSSA") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/050a9e85-4962-4e66-bb05-7f6945ffb6af"
-      (reference "TP12") (unit 1) (value "PAIR45") (footprint "")
+      (reference "TP12") (unit 1) (value "PAIR45") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/a5ab3be2-6bba-46ff-acf4-8bf677235dde"
-      (reference "TP13") (unit 1) (value "PAIR78") (footprint "")
+      (reference "TP13") (unit 1) (value "PAIR78") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/4279b81a-9e8b-4c97-8bbe-f29c45cee10e"
+      (reference "TP14") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/d34e2763-fca2-4c34-9d0d-52629e9e6e79"
-      (reference "TP15") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP15") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/7046ea51-7198-4fe7-a624-edb642febac9"
-      (reference "TP16") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/b6bca6ac-21be-44ee-b5b2-6ffc4ab1c531"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/98b69813-485d-4109-9ecc-c5c9869936d3"
-      (reference "TP18") (unit 1) (value "RTN") (footprint "")
+      (reference "TP18") (unit 1) (value "RTN") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/bb3994d0-4696-4fe1-85d2-cc5988f270ea"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/51efc304-0253-4cf9-b8a4-37a603089f63/2d649bfe-be8e-435f-8d1d-f4a2421e5499"
-      (reference "TP20") (unit 1) (value "+48 Test 2") (footprint "")
+      (reference "TP20") (unit 1) (value "+48 Test 2") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/4f9af33f-abbd-48f1-bd93-e48ca517c56e"
+      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/a145f075-205b-4c69-8abb-56d98be45c9e"
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/fecce774-c3e6-4f3a-8d8a-89dd36d77c99"
+      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/024b7b47-0e75-44ed-ad00-ef0b635ee5c0"
+      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/2ca3a0f2-1db2-49ca-b941-3735f746c2ef/15652805-0e08-4b79-9b25-7386b223f05c"
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
     (path "/f63ab445-f771-4bf9-83e4-f80f54e503cd"
       (reference "TR1") (unit 1) (value "7490220122") (footprint "PoE_Devices:7490220122")
     )
     (path "/3ace0daf-872d-413c-a0a6-5d385df9e012"
-      (reference "U1") (unit 1) (value "LM2575HVS") (footprint "KTT0005B")
+      (reference "U1") (unit 1) (value "LM2575HVS") (footprint "PoE_Devices:LM2575HVS-12")
     )
     (path "/9d43f031-4287-4645-997e-8ec53611a4dd/e839030f-3630-4679-abd4-0628298cf701"
       (reference "U2") (unit 1) (value "LAN7800/Y9X") (footprint "PoE_Devices:LAN7800&slash_Y9X")
