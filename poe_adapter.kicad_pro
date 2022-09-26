@@ -457,6 +457,10 @@
     [
       "2ca3a0f2-1db2-49ca-b941-3735f746c2ef",
       "LM5116 DCDC & USB PD"
+    ],
+    [
+      "31fb3235-2a2e-4684-8a12-32ea063846e9",
+      "48V_to_3V3"
     ]
   ],
   "text_variables": {}
